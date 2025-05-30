@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Klinik Pratama Kanaka</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <img src="images/logo.png" alt="Coffee">
+          <p class="logo-text">Kanaka Medical Centre</p>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="#service" class="nav-link">Pelayanan</a>
+          </li>
+          <li class="nav-item">
+            <a href="#doctor" class="nav-link">Dokter</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a href="#facility" class="nav-link">Fasilitas</a>
+          </li>
+          <li class="nav-item">
+            <a href="#kontak" class="nav-link">Kontak</a>
+          </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h3 class="subtitle">Pelayanan Klinik Kesehatan Terbaik dan Berkualitas Untuk Masyarakat</h3>
+            <p class="description">Melayani Pasien BPJS dan Umum</p>
+            <div class="buttons">
+              <a href="#kontak" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <!-- <img src="images/logo.png" alt="Coffee" class="hero-image" /> -->
+          </div>
+        </div>
+      </section>
+      <!-- Services section -->
+      <section class="menu-section" id="service">
+        <h2 class="section-title">Pelayanan Berkualitas Kami</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="images/dokter-umum.png" alt="Dokter Umum" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Dokter Umum</h3>
+                <p class="text">Pelayanan kesehatan yang menyeluruh dan personal dalam menangani berbagai keluhan medis sehari-hari</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/dokter-gigi.png" alt="Dokter Gigi" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Dokter Gigi & Mulut</h3>
+                <p class="text">Perawatan terbaik untuk kesehatan gigi dan mulut anda. Menggunakan teknologi terbaru dan teknik perawatan yang nyaman</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/ibu-dan-anak.png" alt="Ibu dan Anak" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Pelayanan KIA</h3>
+                <p class="text">Pelayanan Kesehatan Ibu dan Anak (KIA) meliputi pemeriksaan kehamilan, imunisasi, serta pemantauan tumbuh kembang anak.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/farmasi.png" alt="Farmasi" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Farmasi</h3>
+                <p class="text">Didukung tenaga apoteker profesional untuk memastikan penggunaan obat yang diberikan sesuai kebutuhan pasien.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/home-visit.png" alt="Home Visit" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Home Visit</h3>
+                <p class="text">Dengan tenaga medis berpengalaman yang siap memeriksa dan konsultasi kesehatan langsung di rumah Anda</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="images/lab-dasar.png" alt="Lab Dasar" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Lab. Dasar</h3>
+                <p class="text">Menyediakan pemeriksaan kesehatan yang cepat dan akurat untuk mendukung diagnosa dan pengobatan yang tepat.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Doctor section -->
+      <section class="testimonials-section" id="doctor">
+        <h2 class="section-title">Dokter Hebat Kami</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-1.jpg" data-full="images/user-1.jpg" alt="User" class="user-image modal-trigger" />
+                  <h2 class="name">Drg. Putri Raudatul Jannah</h3>
+                  <p class="feedback">Dokter Gigi</p>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-2.jpg" data-full="images/user-2.jpg" alt="User" class="user-image modal-trigger" />
+                  <h3 class="name">Drg. Elisa Widyasari Nasution</h3>
+                  <p class="feedback">Dokter Gigi</p>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-3.jpg" data-full="images/user-3.jpg" alt="User" class="user-image modal-trigger" />
+                  <h3 class="name">Drg. Hani Rafidah</h3>
+                  <p class="feedback">Dokter Gigi</p>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-4.jpg" data-full="images/user-4.jpg"  alt="User" class="user-image modal-trigger" />
+                  <h3 class="name">Dr. Beuyhazid Istiqfhar Poetri</h3>
+                  <p class="feedback">Dokter Umum</p>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-5.jpg" data-full="images/user-5.jpg" alt="User" class="user-image modal-trigger" />
+                  <h3 class="name">Dwi Kurniawi Telaumbanua, A.Md.Keb</h3>
+                  <p class="feedback">Spesialis Bidan</p>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-6.jpg" data-full="images/user-6.jpg" alt="User" class="user-image modal-trigger" />
+                  <h3 class="name">dr. F. Audri Dhania Wulina</h3>
+                  <p class="feedback">Dokter Umum</p>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About section -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="images/doctor-patient.jpg" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">Tentang Kanaka Medical Centre</h2>
+            <p class="text">Kami berkomitmen untuk memberikan pelayanan kesehatan yang optimal setiap hari, didukung oleh tim tenaga medis dan profesional yang berdedikasi tinggi. Klinik Kanaka Medical Centre berorientasi pada mutu serta kepuasan pasien, dengan pelayanan yang mengacu pada standar medis dasar yang terpercaya.</p>
+            <!-- <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- Gallery section -->
+      <section class="gallery-section" id="facility">
+        <h2 class="section-title">Fasilitas Unggulan Kami</h2>
+        <div class="gallery-slider">
+          <img src="images/gallery-1.jpg" data-full="images/gallery-1.jpg" alt="Gallery Image" class="gallery-image modal-trigger" />
+          <img src="images/gallery-2.jpg" data-full="images/gallery-2.jpg" alt="Gallery Image" class="gallery-image modal-trigger" />
+          <img src="images/gallery-3.jpg" data-full="images/gallery-3.jpg" alt="Gallery Image" class="gallery-image modal-trigger" />
+          <img src="images/gallery-4.jpg" data-full="images/gallery-4.jpg" alt="Gallery Image" class="gallery-image modal-trigger" />
+          <img src="images/gallery-5.jpg" data-full="images/gallery-5.jpg" alt="Gallery Image" class="gallery-image modal-trigger" />
+          <img src="images/gallery-6.jpg" data-full="images/gallery-6.jpg" alt="Gallery Image" class="gallery-image modal-trigger" />
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact-section" id="kontak">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p> Jalan Bangau, Komplek The Raztan blok A no.33, Medan.</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>pt.kanakamedicalcentre@gmail.com
+              </p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(+62) 812-8777-4076 (Whatsapp)</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(+62) 821-6011-6846 (PIC)</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Mon - Sat: 8:00 AM - 10:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-brands fa-instagram"></i>
+              <p>@Klinik.kcm.medan</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-brands fa-tiktok"></i>
+              <p>KanakaMedicalCentre</p>
+            </li>
+          </ul>
+          <div class="map-container">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.4473912748635!2d98.62843024614364!3d3.588056308880818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303133a5c967ad9d%3A0xcb9bf76621c6d027!2sKlinik%20Kanaka%20Medical%20Centre!5e0!3m2!1sen!2sid!4v1748368595530!5m2!1sen!2sid"
+            allowfullscreen=""
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </section>
+      <!-- Footer section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© Klinik Kanaka Medical Centre 2025</p>
+          <!-- <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/klinik.kmc.medan/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div> -->
+          <!-- <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Refund policy</a>
+          </p> -->
+        </div>
+      </footer>
+    </main>
+    <a href="https://wa.me/6281287774076?
+             text=Halo!%20Saya%20mau%20tanya%20seputar%20kesehatan!"
+        class="whatsapp-float" target="_blank" rel="noopener">
+      <img src="images/whatsapp.png" alt="Chat on WhatsApp">
+    </a>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Linking custom script -->
+    <script src="script.js" defer></script>
+    <div id="image-modal" class="modal">
+      <span class="close-modal">&times;</span>
+      <img class="modal-content" id="modal-img">
+    </div>
+  </body>
+</html>
