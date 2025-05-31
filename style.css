@@ -207,9 +207,9 @@ header .navbar {
 }
 .about-section .about-image-wrapper .about-image {
   height: 300px;
-  width: 300px;
+  width: 100%;
   object-fit: cover;
-  border-radius: var(--border-radius-circle);
+  border-radius: var(--border-radius-m);
 }
 .about-section .about-details {
   max-width: 50%;
@@ -505,10 +505,11 @@ header .navbar {
   z-index: 999;
   background-color: var(--white-color);
   padding: 10px;
-  border-radius: 100%;
+  border-radius: var(--border-radius-s);
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 .whatsapp-float img {
+  margin-top: 5px;
   width: 32px;
   height: 32px;
 }
