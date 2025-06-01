@@ -358,7 +358,7 @@ header .navbar {
 }*/
 .gallery-section {
   padding: 50px 50px 100px;
-  background-image: linear-gradient(rgba(70, 133, 212, 0.4), rgba(70, 133, 212, 0.4)), url('images/gallery-bg.jpg');
+  background-image: linear-gradient(rgba(70, 133, 212, 0.4), rgba(70, 133, 212, 0.4)), url('images/background.jpg');
   background-repeat: no-repeat;   
   background-size: 120%;
 }
