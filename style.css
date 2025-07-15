@@ -71,7 +71,7 @@ section .section-title::after {
   height: 5px;
   display: block;
   margin: 10px auto 0;
-  background: var(--light-green-color);
+  background: rgba(0,201,167,0.8);
   border-radius: var(--border-radius-s);
 }
 /* Navbar styling */
@@ -79,7 +79,8 @@ header {
   z-index: 5;
   width: 100%;
   position: fixed;
-  background: var(--primary-color);
+  background: 
+  linear-gradient(90deg, rgba(70, 133, 212, 1) 0%, rgba(220, 220, 220, 1) 50%, rgba(0, 201, 167, 1) 100%);
 }
 header .navbar {
   display: flex;
@@ -92,7 +93,7 @@ header .navbar {
 .navbar .nav-logo .logo-text {
   color: var(--white-color);
   font-size: clamp(12px, 5vw, 24px);
-  font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-weight-semibold)
   border: 1px;
 }
 .navbar .nav-logo{
@@ -126,10 +127,14 @@ header .navbar {
 .hero-section {
   min-height: 100vh;
   background: var(--medium-gray-color);
-  background-image: linear-gradient(rgba(70, 133, 212, 0.8), rgba(70, 133, 212, 0.8)), url('images/front.jpg');
+/*  background-image: linear-gradient(rgba(70, 133, 212, 0.8), rgba(70, 133, 212, 0.8)), url('images/front.jpg');*/
+/*  background-blend-mode: overlay;*/
+  background-image: 
+  linear-gradient(90deg, rgba(70, 133, 212, 0.8) 0%, rgba(220, 220, 220, 0.8) 50%, rgba(0, 201, 167, 0.8) 100%), 
+  url('images/front.jpg');
   background-repeat: no-repeat;   
-  background-size: cover;        
-  background-position: 0% 0%;   
+  background-size: 100%;        
+  background-position: 0% 50%;  
 }
 .hero-section .section-content {
   display: flex;
@@ -206,10 +211,10 @@ header .navbar {
   justify-content: space-between;
 }
 .about-section .about-image-wrapper .about-image {
-  height: 300px;
+  height: 400px;
   width: 100%;
   object-fit: cover;
-  border-radius: var(--border-radius-m);
+  border-radius: var(--border-radius-circle);
 }
 .about-section .about-details {
   max-width: 50%;
@@ -283,8 +288,10 @@ header .navbar {
 .testimonials-section {
   color: var(--white-color);
   padding: 50px 0 100px;
-  background: var(--medium-gray-color);
-  background-image: linear-gradient(rgba(70, 133, 212, 0.4), rgba(70, 133, 212, 0.4)), url('images/background.jpg');
+/*  background: var(--medium-gray-color);*/
+  background-image: 
+  linear-gradient(90deg, rgba(70, 133, 212, 0.8) 0%, rgba(220, 220, 220, 0.8) 50%, rgba(0, 201, 167, 0.8) 100%), 
+  url('images/background.jpg');
   background-repeat: no-repeat;   
   background-size: 120%;         
 }
@@ -358,7 +365,9 @@ header .navbar {
 }*/
 .gallery-section {
   padding: 50px 50px 100px;
-  background-image: linear-gradient(rgba(70, 133, 212, 0.4), rgba(70, 133, 212, 0.4)), url('images/background.jpg');
+  background-image: 
+  linear-gradient(90deg, rgba(70, 133, 212, 0.8) 0%, rgba(220, 220, 220, 0.8) 50%, rgba(0, 201, 167, 0.8) 100%), 
+  url('images/gallery-bg.jpg');
   background-repeat: no-repeat;   
   background-size: 120%;
 }
@@ -621,7 +630,9 @@ header .navbar {
     flex-direction: column;
     padding-top: 100px;
     transition: left 0.2s ease;
-    background-image: linear-gradient(rgba(70, 133, 212, 0.8), rgba(70, 133, 212, 0.8)), url('images/sidebar.jpg');
+    background-image: 
+    linear-gradient(90deg, rgba(70, 133, 212, 0.8) 0%, rgba(0, 201, 167, 0.8) 100%), 
+    url('images/sidebar.jpg');
     background-size: cover;
   }
   section .section-title {
